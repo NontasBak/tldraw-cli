@@ -1,5 +1,5 @@
 {
-	"name": "@kitschpatrol/tldraw-cli",
+	"name": "tldraw-cli",
 	"version": "4.5.2",
 	"type": "module",
 	"description": "A CLI tool for exporting tldraw sketch URLs and local .tldr files to SVG or PNG images.",
@@ -18,7 +18,7 @@
 		"url": "https://ericmika.com"
 	},
 	"license": "MIT",
-	"packageManager": "pnpm@8.15.7",
+	"packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3",
 	"engines": {
 		"node": ">=18.0.0",
 		"pnpm": ">=8.0.0"
