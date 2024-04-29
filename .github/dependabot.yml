@@ -13,3 +13,6 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "automatic-dependency-update"
+    allow: 
+      - dependency-name: "tldraw"
+      - dependency-name: "@tldraw/assets"
