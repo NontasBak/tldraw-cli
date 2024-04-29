@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@fontsource/inter':
     specifier: ^5.0.17
-    version: 5.0.17
+    version: 5.0.18
   express:
     specifier: ^4.19.2
     version: 4.19.2
@@ -1028,8 +1028,8 @@ packages:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
     dev: true
 
-  /@fontsource/inter@5.0.17:
-    resolution: {integrity: sha512-2meBGx1kt7u5LwzGc5Sz5rka6ZDrydg6nT3x6Wkt310vHXUchIywrO8pooWMzZdHYcyFY/cv4lEpJZgMD94bCg==}
+  /@fontsource/inter@5.0.18:
+    resolution: {integrity: sha512-YCsoYPTcs713sI7tLtxaPrIhXAXvEetGg5Ry02ivA8qUOb3fQHojbK/X9HLD5OOKvFUNR2Ynkwb1kR1hVKQHpw==}
 
   /@html-eslint/eslint-plugin@0.24.1:
     resolution: {integrity: sha512-JwNDQBrNIWEPcxgSpla/2jaUXyQCqL7Xp8CmON4Bk5qg8MwiDLXOgjylfVC+tN52i8JeHWMca34I9DqBGRj9Qg==}
@@ -1374,7 +1374,7 @@ packages:
     engines: {node: '>=18.0.0', pnpm: '>=8.0.0'}
     hasBin: true
     dependencies:
-      '@fontsource/inter': 5.0.17
+      '@fontsource/inter': 5.0.18
       express: 4.19.2
       puppeteer: 22.6.5(typescript@5.4.5)
       uint8array-extras: 1.1.0
