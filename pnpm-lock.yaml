@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^2.2.1
     version: 2.2.1
   '@tldraw/assets':
-    specifier: 2.1.0-canary.41601ac61ec7
-    version: 2.1.0-canary.41601ac61ec7
+    specifier: 2.1.4
+    version: 2.1.4
   '@types/express':
     specifier: ^4.17.21
     version: 4.17.21
@@ -2607,10 +2607,10 @@ packages:
       '@taplo/core': 0.1.1
     dev: true
 
-  /@tldraw/assets@2.1.0-canary.41601ac61ec7:
-    resolution: {integrity: sha512-qOiN1HDHJgE6+V7e7s2H3uhr2HVr1ZmZakrlrKfYAc9smhaJoQ6cOmcVA+WmrH0vXmevozFrp+BhFyPM2oOgLQ==}
+  /@tldraw/assets@2.1.4:
+    resolution: {integrity: sha512-wnBdD1ipGgFq8k3/zqhMH0ZVtpvN3s6rrJsl9y4dIRPe/B7IPHix+H2yGjLs0RUoo+Jt6hyq8c7k/WMpAsA5/g==}
     dependencies:
-      '@tldraw/utils': 2.1.0-canary.41601ac61ec7
+      '@tldraw/utils': 2.1.4
     dev: true
 
   /@tldraw/editor@2.1.0-canary.41601ac61ec7(react-dom@18.2.0)(react@18.2.0):
@@ -2673,6 +2673,10 @@ packages:
 
   /@tldraw/utils@2.1.0-canary.41601ac61ec7:
     resolution: {integrity: sha512-0AFBvRwDMgVboLKNiUt4PoAwUQD+wgZZU5Vdnj71tgx7gtKRSJiT2VzOdVHN8Pv+HnKp00Po1O8KOrZ9kpqrwQ==}
+    dev: true
+
+  /@tldraw/utils@2.1.4:
+    resolution: {integrity: sha512-C1py+hHpLdqTLWraua4f4U1FRonQtwzTJozeOpKZbmBaYT5x6I6WtNKBZpAIY752HCbj0CnoMDf7oY8Mf1TkpA==}
     dev: true
 
   /@tldraw/validate@2.1.0-canary.41601ac61ec7:
