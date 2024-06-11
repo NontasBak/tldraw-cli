@@ -31,8 +31,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       '@tldraw/assets':
-        specifier: 2.2.0-canary.ccb6b918c51a
-        version: 2.2.0-canary.ccb6b918c51a
+        specifier: 2.2.0-canary.1452978246a6
+        version: 2.2.0-canary.1452978246a6
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
@@ -702,6 +702,7 @@ packages:
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -709,6 +710,7 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -1446,8 +1448,8 @@ packages:
   '@taplo/lib@0.4.0-alpha.2':
     resolution: {integrity: sha512-DV/Re3DPVY+BhBtLZ3dmP4mP6YMLSsgq9qGLXwOV38lvNF/fBlgvQswzlXmzCEefL/3q2eMoefZpOI/+GLuCNA==}
 
-  '@tldraw/assets@2.2.0-canary.ccb6b918c51a':
-    resolution: {integrity: sha512-KfIlktTw8zM0YdzPiOT5qRa1KIMkm6J+9+AVzVwhy9w3CC2/NHycJs5Kdpt+59d+2kWThro72RxQT+e/zNUaqw==}
+  '@tldraw/assets@2.2.0-canary.1452978246a6':
+    resolution: {integrity: sha512-Wy/AUSZhYC0XD7k5zaZewaERimracgOj5Eg5yKcnzRDHU4nkwenja3XpmPcgb9nFuws9peAvnGWCwL0lFXlB0A==}
 
   '@tldraw/editor@2.2.0-canary.ccb6b918c51a':
     resolution: {integrity: sha512-iqZe2j4F1HFjhYx3F2i3GvapzpL5DaFnw9BP7BOZUanmk6tLsUUNif0oqInMcRMLmtit6C3cq6xBzNyyW55Oow==}
@@ -1469,6 +1471,9 @@ packages:
     resolution: {integrity: sha512-RqqRdU06D0gjvegh+zfxZJEpEEpvs4xisCu6YORszxf9SLsUmwtR6NHFDVBLU2I9YVDkMyrA6jCYRzDCmM9BIA==}
     peerDependencies:
       react: ^18
+
+  '@tldraw/utils@2.2.0-canary.1452978246a6':
+    resolution: {integrity: sha512-Y77bq8gOiOZ/TVnf9kVWRm9EokyLOz56zoiV9eWQmYohTknzSki+i87eKeH4zXMquhnOijjtlToKQR81LhZdOA==}
 
   '@tldraw/utils@2.2.0-canary.ccb6b918c51a':
     resolution: {integrity: sha512-gtlS1Hs/BU0v1b75hcTOoFi9Ji2saUaJyetFBZodpwf8GuHKBSMpv6cx60ZzTq9xk6GnlE7e1MznxUy4veoaeQ==}
@@ -6806,9 +6811,9 @@ snapshots:
     dependencies:
       '@taplo/core': 0.1.1
 
-  '@tldraw/assets@2.2.0-canary.ccb6b918c51a':
+  '@tldraw/assets@2.2.0-canary.1452978246a6':
     dependencies:
-      '@tldraw/utils': 2.2.0-canary.ccb6b918c51a
+      '@tldraw/utils': 2.2.0-canary.1452978246a6
 
   '@tldraw/editor@2.2.0-canary.ccb6b918c51a(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -6850,6 +6855,8 @@ snapshots:
       '@tldraw/validate': 2.2.0-canary.ccb6b918c51a
       nanoid: 4.0.2
       react: 18.2.0
+
+  '@tldraw/utils@2.2.0-canary.1452978246a6': {}
 
   '@tldraw/utils@2.2.0-canary.ccb6b918c51a': {}
 
