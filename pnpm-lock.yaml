@@ -31,8 +31,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       '@tldraw/assets':
-        specifier: 2.2.0-canary.ccb6b918c51a
-        version: 2.2.0-canary.ccb6b918c51a
+        specifier: 2.2.0-canary.1452978246a6
+        version: 2.2.0-canary.1452978246a6
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
@@ -1448,8 +1448,8 @@ packages:
   '@taplo/lib@0.4.0-alpha.2':
     resolution: {integrity: sha512-DV/Re3DPVY+BhBtLZ3dmP4mP6YMLSsgq9qGLXwOV38lvNF/fBlgvQswzlXmzCEefL/3q2eMoefZpOI/+GLuCNA==}
 
-  '@tldraw/assets@2.2.0-canary.ccb6b918c51a':
-    resolution: {integrity: sha512-KfIlktTw8zM0YdzPiOT5qRa1KIMkm6J+9+AVzVwhy9w3CC2/NHycJs5Kdpt+59d+2kWThro72RxQT+e/zNUaqw==}
+  '@tldraw/assets@2.2.0-canary.1452978246a6':
+    resolution: {integrity: sha512-Wy/AUSZhYC0XD7k5zaZewaERimracgOj5Eg5yKcnzRDHU4nkwenja3XpmPcgb9nFuws9peAvnGWCwL0lFXlB0A==}
 
   '@tldraw/editor@2.2.0-canary.1452978246a6':
     resolution: {integrity: sha512-ALzEI3Yk6ceTvaJ/M9JamTLKpblQhxh+kVM0lDUI42rVsrUjweO95E2ttDI7LSsTdwT9DNcvHFZA9klFlgtqjg==}
@@ -6811,9 +6811,9 @@ snapshots:
     dependencies:
       '@taplo/core': 0.1.1
 
-  '@tldraw/assets@2.2.0-canary.ccb6b918c51a':
+  '@tldraw/assets@2.2.0-canary.1452978246a6':
     dependencies:
-      '@tldraw/utils': 2.2.0-canary.ccb6b918c51a
+      '@tldraw/utils': 2.2.0-canary.1452978246a6
 
   '@tldraw/editor@2.2.0-canary.1452978246a6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
