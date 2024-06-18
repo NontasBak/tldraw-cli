@@ -31,8 +31,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       '@tldraw/assets':
-        specifier: 2.2.0
-        version: 2.2.0
+        specifier: 2.2.1
+        version: 2.2.1
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
@@ -1448,8 +1448,8 @@ packages:
   '@taplo/lib@0.4.0-alpha.2':
     resolution: {integrity: sha512-DV/Re3DPVY+BhBtLZ3dmP4mP6YMLSsgq9qGLXwOV38lvNF/fBlgvQswzlXmzCEefL/3q2eMoefZpOI/+GLuCNA==}
 
-  '@tldraw/assets@2.2.0':
-    resolution: {integrity: sha512-kHkeUGbb1sc4AhIPARbMcAquQ4vhpymo5y1UK/xRb2runU8BvqOQFa24hWVlFQqp10z0Zu1jRFPHWEQkH8Dlmg==}
+  '@tldraw/assets@2.2.1':
+    resolution: {integrity: sha512-cLAzNl3t3BXAUs5pGKApI5Na0v69+6rCJ1HpsmTDH4NcApdswQJF1nuIcdBuyR+5uT+T0HRtWgMpCjlJBt79IQ==}
 
   '@tldraw/editor@2.2.0-canary.1452978246a6':
     resolution: {integrity: sha512-ALzEI3Yk6ceTvaJ/M9JamTLKpblQhxh+kVM0lDUI42rVsrUjweO95E2ttDI7LSsTdwT9DNcvHFZA9klFlgtqjg==}
@@ -1472,11 +1472,11 @@ packages:
     peerDependencies:
       react: ^18
 
-  '@tldraw/utils@2.2.0':
-    resolution: {integrity: sha512-tcoKvi7fP0qO8I3Mf2706opshonoCZv3PKd2Xk24A/o3ZdoJkaKPh6oBFuzrExtHj6APHKMZBUBQeWi0rmvrRg==}
-
   '@tldraw/utils@2.2.0-canary.1452978246a6':
     resolution: {integrity: sha512-Y77bq8gOiOZ/TVnf9kVWRm9EokyLOz56zoiV9eWQmYohTknzSki+i87eKeH4zXMquhnOijjtlToKQR81LhZdOA==}
+
+  '@tldraw/utils@2.2.1':
+    resolution: {integrity: sha512-n2Ko/x6gGi33zP+kaKKcgdofbHQYM+jZiXJlBebngpHLLK1DnkaGVVLH9Dxk+vwBZu217ecpMGWPDZKIFxFRFg==}
 
   '@tldraw/validate@2.2.0-canary.1452978246a6':
     resolution: {integrity: sha512-ULrQlp7d5XEXPcawmtylyCx9fkqOXbtKRaUGIuL+BfkcCXeN+BEztoJkd+MxVLdXhIU8ZKtmJ1QBnqha9ghMJg==}
@@ -6811,9 +6811,9 @@ snapshots:
     dependencies:
       '@taplo/core': 0.1.1
 
-  '@tldraw/assets@2.2.0':
+  '@tldraw/assets@2.2.1':
     dependencies:
-      '@tldraw/utils': 2.2.0
+      '@tldraw/utils': 2.2.1
 
   '@tldraw/editor@2.2.0-canary.1452978246a6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -6856,9 +6856,9 @@ snapshots:
       nanoid: 4.0.2
       react: 18.2.0
 
-  '@tldraw/utils@2.2.0': {}
-
   '@tldraw/utils@2.2.0-canary.1452978246a6': {}
+
+  '@tldraw/utils@2.2.1': {}
 
   '@tldraw/validate@2.2.0-canary.1452978246a6':
     dependencies:
