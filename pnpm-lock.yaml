@@ -31,8 +31,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       '@tldraw/assets':
-        specifier: 2.2.4
-        version: 2.2.4
+        specifier: 2.3.0
+        version: 2.3.0
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
@@ -1448,8 +1448,8 @@ packages:
   '@taplo/lib@0.4.0-alpha.2':
     resolution: {integrity: sha512-DV/Re3DPVY+BhBtLZ3dmP4mP6YMLSsgq9qGLXwOV38lvNF/fBlgvQswzlXmzCEefL/3q2eMoefZpOI/+GLuCNA==}
 
-  '@tldraw/assets@2.2.4':
-    resolution: {integrity: sha512-cdETiIJ7rh8pQCpPgMquuqEGpZf20nioMmyT6svGfsB0HF8cXkMGon1bl4IM/BsXvKdsQsvw4WT7Yn22k0Un2Q==}
+  '@tldraw/assets@2.3.0':
+    resolution: {integrity: sha512-38k6wmfVCsArvEefG3R0HsL1T9aN+VZNg+DxwdPtuoYyByOJVOkPVbgtBWjd2FB60XpkV4ruZUjQWtZiGwMIiw==}
 
   '@tldraw/editor@2.2.1':
     resolution: {integrity: sha512-0ROLYP0YD4Kq0MapXfNMXfbigECL/3Fpe+GZRlp8El7LcHl8bctaq8ppc//azqtEt9DLbQKv6BMDDlC/obfe/g==}
@@ -1475,8 +1475,8 @@ packages:
   '@tldraw/utils@2.2.1':
     resolution: {integrity: sha512-n2Ko/x6gGi33zP+kaKKcgdofbHQYM+jZiXJlBebngpHLLK1DnkaGVVLH9Dxk+vwBZu217ecpMGWPDZKIFxFRFg==}
 
-  '@tldraw/utils@2.2.4':
-    resolution: {integrity: sha512-QoaAsfLoLR3fZZl47PmLE1csFJTWipuAKCJ7cZtHRqWOYz1ZLYQFoj7JjY8TAWViR4rcR8AOt3f+M96GjSEFbw==}
+  '@tldraw/utils@2.3.0':
+    resolution: {integrity: sha512-505GGtnH5yvtZfwJNUZTCZGnJpbGH5QvaQsw/2fDGy5sYWeO09aEVp/25nCcRzw5PM34hsv+ehO6LsqTHwqPIw==}
 
   '@tldraw/validate@2.2.1':
     resolution: {integrity: sha512-9kmmy6bKCu5PyqI44yY30xluduJiJAlrjwymtYZ103ByrAjASE/tkJ18SlDepetrHqOEjpk4G8iKFzZfH45SSw==}
@@ -6811,9 +6811,9 @@ snapshots:
     dependencies:
       '@taplo/core': 0.1.1
 
-  '@tldraw/assets@2.2.4':
+  '@tldraw/assets@2.3.0':
     dependencies:
-      '@tldraw/utils': 2.2.4
+      '@tldraw/utils': 2.3.0
 
   '@tldraw/editor@2.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -6858,7 +6858,10 @@ snapshots:
 
   '@tldraw/utils@2.2.1': {}
 
-  '@tldraw/utils@2.2.4': {}
+  '@tldraw/utils@2.3.0':
+    dependencies:
+      lodash.throttle: 4.1.1
+      lodash.uniq: 4.5.0
 
   '@tldraw/validate@2.2.1':
     dependencies:
