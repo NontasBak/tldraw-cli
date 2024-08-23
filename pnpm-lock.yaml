@@ -31,8 +31,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       '@tldraw/assets':
-        specifier: 2.4.3
-        version: 2.4.3
+        specifier: 2.4.5
+        version: 2.4.5
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
@@ -1448,8 +1448,8 @@ packages:
   '@taplo/lib@0.4.0-alpha.2':
     resolution: {integrity: sha512-DV/Re3DPVY+BhBtLZ3dmP4mP6YMLSsgq9qGLXwOV38lvNF/fBlgvQswzlXmzCEefL/3q2eMoefZpOI/+GLuCNA==}
 
-  '@tldraw/assets@2.4.3':
-    resolution: {integrity: sha512-vYxsLRr6SK2nuG9RLt1rMvZ45GmIt6fsVaIZg36f/PHP8vfmh4yeS+Jrl7664lk20ugoKbkWPSCmDpaTstAakA==}
+  '@tldraw/assets@2.4.5':
+    resolution: {integrity: sha512-qvemezW1IJSDjYTEIfZeAmNf7tlFVtw7+3ghVqLBMWp6MGy8y92G7REs0O1OyXxamFwIAFqKLzMtZ+fViugL8w==}
 
   '@tldraw/editor@2.4.4':
     resolution: {integrity: sha512-q9VavfOIcqVhTrVPhziWKOv6b5Mkj7x1zaGRmWEKJhCWEWZ/TMpVma4S7nLhRu/nlu5H4pKCDQ9FKqY7JIAnYA==}
@@ -1475,11 +1475,11 @@ packages:
     peerDependencies:
       react: ^18
 
-  '@tldraw/utils@2.4.3':
-    resolution: {integrity: sha512-SNu5kD5UiBsrZjtuiKNgkImlFgI+x9jPCP+9g6rVhjCn+OAm/ZNGtATXsRELONiaW0RTyQxH1Qp0AJWpiUIxDw==}
-
   '@tldraw/utils@2.4.4':
     resolution: {integrity: sha512-rFYDB0R6pnHsFmnpd/ElglUmrRgQOTyFqd4BFc89y9MbpR9iWgkEx7kBW4d4xYEylEAZnrwhdTQPKIWM3fVyCw==}
+
+  '@tldraw/utils@2.4.5':
+    resolution: {integrity: sha512-JMYFz0Dp+j/n1z6Pg/IgqqAutEMWqMHBbsWmU9UGZC9vqWMg7BJx71XtvBrDMIZmOSg9I3a/WkyU8Tftz6dKMw==}
 
   '@tldraw/validate@2.4.4':
     resolution: {integrity: sha512-6fwcAMbNFDMdCv1s7ftx01IEU0i6E4LGJVkP7gssPGT71HskYshUA42tE1Ga8FF+Bnzv2qoz6xQZyJCSQltr1g==}
@@ -6815,9 +6815,9 @@ snapshots:
     dependencies:
       '@taplo/core': 0.1.1
 
-  '@tldraw/assets@2.4.3':
+  '@tldraw/assets@2.4.5':
     dependencies:
-      '@tldraw/utils': 2.4.3
+      '@tldraw/utils': 2.4.5
 
   '@tldraw/editor@2.4.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -6862,12 +6862,12 @@ snapshots:
       nanoid: 4.0.2
       react: 18.2.0
 
-  '@tldraw/utils@2.4.3':
+  '@tldraw/utils@2.4.4':
     dependencies:
       lodash.throttle: 4.1.1
       lodash.uniq: 4.5.0
 
-  '@tldraw/utils@2.4.4':
+  '@tldraw/utils@2.4.5':
     dependencies:
       lodash.throttle: 4.1.1
       lodash.uniq: 4.5.0
