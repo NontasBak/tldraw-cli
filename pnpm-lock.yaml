@@ -31,8 +31,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1
       '@tldraw/assets':
-        specifier: 2.4.6
-        version: 2.4.6
+        specifier: 3.3.1
+        version: 3.3.1
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.21
@@ -1448,8 +1448,8 @@ packages:
   '@taplo/lib@0.4.0-alpha.2':
     resolution: {integrity: sha512-DV/Re3DPVY+BhBtLZ3dmP4mP6YMLSsgq9qGLXwOV38lvNF/fBlgvQswzlXmzCEefL/3q2eMoefZpOI/+GLuCNA==}
 
-  '@tldraw/assets@2.4.6':
-    resolution: {integrity: sha512-NHOEnzMeLCeM6Tx30qKoMFO22y6yDaN1hGuGgGSzO5kWBMjQh4X+ShhXbGMRgUYV+ogUTQXZ0ZCjTEikIZI5Kg==}
+  '@tldraw/assets@3.3.1':
+    resolution: {integrity: sha512-JJ6BBcv4ZmzCHTExZyosarmZeGeyyRskEYhrdP4puvAed39I+cDJpQz5aL1/ITk67FrdmAzJoBY5aVZP1Pj+GA==}
 
   '@tldraw/editor@2.4.4':
     resolution: {integrity: sha512-q9VavfOIcqVhTrVPhziWKOv6b5Mkj7x1zaGRmWEKJhCWEWZ/TMpVma4S7nLhRu/nlu5H4pKCDQ9FKqY7JIAnYA==}
@@ -1478,8 +1478,8 @@ packages:
   '@tldraw/utils@2.4.4':
     resolution: {integrity: sha512-rFYDB0R6pnHsFmnpd/ElglUmrRgQOTyFqd4BFc89y9MbpR9iWgkEx7kBW4d4xYEylEAZnrwhdTQPKIWM3fVyCw==}
 
-  '@tldraw/utils@2.4.6':
-    resolution: {integrity: sha512-7CnDWY4ru5AuFDt66je7qA/s5ZrN+Nhf7UBGT2oerECsLhDAp7J8cL+ly4Jbe5LHOb6w/s6NMcv4BiEv2B/pPg==}
+  '@tldraw/utils@3.3.1':
+    resolution: {integrity: sha512-bmMJLEqN35EmhL6NySJHNKoZmL1fv+/sBD4qs7IVH19d/wKkLE22iGXI50iXcGCSMQk7gHphDdgTg/ka6cYhhg==}
 
   '@tldraw/validate@2.4.4':
     resolution: {integrity: sha512-6fwcAMbNFDMdCv1s7ftx01IEU0i6E4LGJVkP7gssPGT71HskYshUA42tE1Ga8FF+Bnzv2qoz6xQZyJCSQltr1g==}
@@ -2620,6 +2620,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -2773,6 +2774,9 @@ packages:
   forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
+
+  fractional-indexing-jittered@0.9.1:
+    resolution: {integrity: sha512-qyzDZ7JXWf/yZT2rQDpQwFBbIaZS2o+zb0s740vqreXQ6bFQPd8tAy4D1gGN0CUeIcnNHjuvb0EaLnqHhGV/PA==}
 
   fresh@0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
@@ -6815,9 +6819,9 @@ snapshots:
     dependencies:
       '@taplo/core': 0.1.1
 
-  '@tldraw/assets@2.4.6':
+  '@tldraw/assets@3.3.1':
     dependencies:
-      '@tldraw/utils': 2.4.6
+      '@tldraw/utils': 3.3.1
 
   '@tldraw/editor@2.4.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -6867,8 +6871,9 @@ snapshots:
       lodash.throttle: 4.1.1
       lodash.uniq: 4.5.0
 
-  '@tldraw/utils@2.4.6':
+  '@tldraw/utils@3.3.1':
     dependencies:
+      fractional-indexing-jittered: 0.9.1
       lodash.throttle: 4.1.1
       lodash.uniq: 4.5.0
 
@@ -8565,6 +8570,8 @@ snapshots:
   format@0.2.2: {}
 
   forwarded@0.2.0: {}
+
+  fractional-indexing-jittered@0.9.1: {}
 
   fresh@0.5.2: {}
 
